@@ -1,5 +1,12 @@
+*{
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  background-color: teal;
 }
 
 .App-logo {
@@ -7,11 +14,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -27,12 +29,17 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ .div1{
+    width: 70wh;
+     height: 100vh;
+     padding-top: 10%;
+     background-color: teal;
+ }
+.center1{
+  width: 30wh;
+   color: yellow;
+   padding: 2rem;
+}
+.center1>input{
+   justify-content: space-between;
 }
